@@ -1,11 +1,10 @@
 lista_zakupow = {
-    'Piekarnia': ['Chleb', 'Pączek', 'Bułki'],
-    'Warzywniak': ['Marchew', 'Seler', 'Rukola']
+    'piekarnia': ['chleb', 'pączek', 'bułki'],
+    'parzywniak': ['marchew', 'seler', 'rukola']
 }
 
-ile_produktów = sum([len(lista_zakupow[i]) for i in lista_zakupow])
+for i , j in lista_zakupow.items():
+    print(f"Idę do {i.capitalize()} kupuję tu następujące rzeczy: {[x.capitalize() for x in j]} ")
 
-for i, j in lista_zakupow.items():
-    print(f"Idę do {i} kupuję tu następujące rzeczy: {j} ")
-
-print(f"W sumie kupuję {ile_produktów} produktów.")
+# ile_produktów = sum([len(lista_zakupow[i]) for i in lista_zakupow])
+print(f"W sumie kupuję {sum([len(lista_zakupow[i]) for i in lista_zakupow])} produktów.")
