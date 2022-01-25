@@ -10,3 +10,5 @@ print(f"W sumie kupuję {sum([len(lista_zakupow[i]) for i in lista_zakupow])} pr
 
 print(f"Zmiana tekstu")
 print(f"testujemy")
+
+print(f"testujemy testname2")
