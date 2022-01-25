@@ -8,4 +8,4 @@ for i , j in lista_zakupow.items():
 
 print(f"W sumie kupuję {sum([len(lista_zakupow[i]) for i in lista_zakupow])} produktów.")
 
-print(f"Drugi programista. Wita")
+print(f"Zmiana tekstu")
